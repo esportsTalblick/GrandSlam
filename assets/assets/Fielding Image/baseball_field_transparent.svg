@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent background -->
+  <rect width="800" height="600" fill="none" />
+  
+  <!-- Outfield mit Mählinienmuster -->
+  <g transform="translate(0, 50)">
+    <!-- Outfield Gras mit Mählinien -->
+    <path d="M 400,400 L 100,150 A 350,350 0 0,1 700,150 L 400,400 Z" fill="#4a8e29" />
+    
+    <!-- Mählinien - dunklere vertikale Streifen im Outfield -->
+    <path d="M 150,150 L 220,400 M 250,150 L 300,400 M 350,150 L 380,400 M 450,150 L 420,400 M 550,150 L 500,400 M 650,150 L 580,400" 
+          stroke="#3e7a22" stroke-width="30" stroke-opacity="0.3" />
+    
+    <!-- Infield Dirt -->
+    <path d="M 400,400 L 200,250 L 400,100 L 600,250 Z" fill="#c6936b" />
+    
+    <!-- Pitcher's Mound -->
+    <circle cx="400" cy="250" r="25" fill="#b3884e" stroke="#dda76a" stroke-width="2" />
+    <rect x="390" y="250" width="20" height="5" fill="white" rx="1" ry="1" />
+    
+    <!-- Area um Home Plate -->
+    <path d="M 400,400 L 350,480 L 450,480 Z" fill="#c6936b" />
+    
+    <!-- Baselines -->
+    <line x1="400" y1="400" x2="600" y2="250" stroke="white" stroke-width="3" />
+    <line x1="400" y1="400" x2="200" y2="250" stroke="white" stroke-width="3" />
+    <line x1="200" y1="250" x2="400" y2="100" stroke="white" stroke-width="3" />
+    <line x1="400" y1="100" x2="600" y2="250" stroke="white" stroke-width="3" />
+    
+    <!-- Foul Lines -->
+    <line x1="400" y1="400" x2="100" y2="150" stroke="white" stroke-width="2" />
+    <line x1="400" y1="400" x2="700" y2="150" stroke="white" stroke-width="2" />
+    
+    <!-- Home Plate -->
+    <path d="M 400,410 L 390,425 L 400,440 L 410,425 Z" fill="white" stroke="#333" stroke-width="1" />
+    
+    <!-- Bases -->
+    <!-- First Base -->
+    <rect x="590" y="240" width="20" height="20" transform="rotate(45, 600, 250)" fill="white" stroke="#333" stroke-width="1" />
+    
+    <!-- Second Base -->
+    <rect x="390" y="90" width="20" height="20" transform="rotate(45, 400, 100)" fill="white" stroke="#333" stroke-width="1" />
+    
+    <!-- Third Base -->
+    <rect x="190" y="240" width="20" height="20" transform="rotate(45, 200, 250)" fill="white" stroke="#333" stroke-width="1" />
+    
+    <!-- Batter's Boxes -->
+    <rect x="375" y="425" width="15" height="30" fill="none" stroke="white" stroke-width="1" />
+    <rect x="410" y="425" width="15" height="30" fill="none" stroke="white" stroke-width="1" />
+    
+    <!-- Catcher's Box -->
+    <rect x="380" y="460" width="40" height="15" fill="none" stroke="white" stroke-width="1" />
+    
+    <!-- Foul Territory - kleine Markierungen -->
+    <rect x="150" y="200" width="8" height="8" fill="white" />
+    <rect x="642" y="200" width="8" height="8" fill="white" />
+    
+    <!-- Infield & Outfield Text -->
+    <text x="400" y="180" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Infield</text>
+    <text x="400" y="80" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Outfield</text>
+  </g>
+</svg>
